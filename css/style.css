@@ -1,0 +1,42 @@
+/* Set up a responsive grid for the game board */
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+/* Style the cells of the game board */
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    border: 2px solid #333;
+}
+
+/* Style the X and O symbols */
+.cell[data-cell='X'] {
+    color: #f00;
+}
+.cell[data-cell='O'] {
+    color: #00f;
+}
+
+/* Style the display for the current player's turn */
+#current-player {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Style the reset button */
+#reset-button {
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
