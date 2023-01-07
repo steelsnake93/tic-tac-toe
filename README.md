@@ -33,8 +33,8 @@
 
 ## To-do List:
 
-- [ ] Set up HTML structure for game board
-- [ ] Add CSS styles for layout and appearance
+- [x] Set up HTML structure for game board
+- [x] Add CSS styles for layout and appearance
 - [ ] Implement game logic with JavaScript
 - [ ] Add event handling for user interactions
 - [ ] Test app and fix any bugs

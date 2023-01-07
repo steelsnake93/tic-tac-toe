@@ -9,33 +9,26 @@
 </head>
 <body>
     
-    <!-- Container element for the game board -->
-    <div id="game-board">
-        <!-- Row 1 -->
-        <div class="row">
-            <div class="cell" data-cell=""></div>
-            <div class="cell" data-cell=""></div>
-            <div class="cell" data-cell=""></div>
+    <div id="game">
+        <!-- Container element for the game board -->
+            <div id="board">
+                <div class="cell" data-cell="O">X</div>
+                <div class="cell" data-cell="X">O</div>
+                <div class="cell" data-cell="O">X</div>
+                <div class="cell" data-cell="X">O</div>
+                <div class="cell" data-cell="O">X</div>
+                <div class="cell" data-cell="X">O</div>
+                <div class="cell" data-cell="O">X</div>
+                <div class="cell" data-cell="X">O</div>
+                <div class="cell" data-cell="O">X</div>
+            </div>
         </div>
-        <!-- Row 2 -->
-        <div class="row">
-            <div class="cell" data-cell=""></div>
-            <div class="cell" data-cell=""></div>
-            <div class="cell" data-cell=""></div>
+        <div id="status">
+            <!-- Display for current player's turn -->
+            <p id="current-player">Player X's turn</p>
         </div>
-        <!-- Row 3 -->
-        <div class="row">
-            <div class="cell" data-cell=""></div>
-            <div class="cell" data-cell=""></div>
-            <div class="cell" data-cell=""></div>
-        </div>
-    </div>
-
-    <!-- Display for current player's turn -->
-    <p id="current-player">Player X's turn</p>
-
-    <!-- Reset button -->
-    <button id="reset-button">New game</button>
+        <!-- Reset button -->
+        <button id="reset-button">New game</button>
 
     <script src="./js/script.js"></script>
 </body>

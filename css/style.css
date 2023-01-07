@@ -1,19 +1,36 @@
+html, body {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game {
+    background-color: #333;
+}
 /* Set up a responsive grid for the game board */
-#game-board {
+#board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-gap: 10px;
+    gap: 5px;
 }
 
 /* Style the cells of the game board */
 .cell {
+    background-color: #fff;
+    width: 125px;
+    height: 125px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
-    font-weight: bold;
-    border: 2px solid #333;
+    font-size: 7em;
+    font-weight: 600;
 }
 
 /* Style the X and O symbols */
