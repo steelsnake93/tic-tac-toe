@@ -1,17 +1,26 @@
-html, body {
-    margin: 0 auto;
-    padding: 0px;
+:root {
+    --bg-color: #264653;
+    --sec-color: #2a9d8f;
+    --p2cell-color: #e9c46a;
+    --p1cell-color: #f4a261;
+    --color1-color: #e76f51;
 }
 
 body {
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
     display: flex;
     flex-direction: column;
+    height: 100vh;
     justify-content: center;
     align-items: center;
+    background-color: var(--bg-color);
 }
-
 #game {
-    background-color: #333;
+    background-color: var(--sec-color);
 }
 /* Set up a responsive grid for the game board */
 #board {
@@ -23,7 +32,7 @@ body {
 
 /* Style the cells of the game board */
 .cell {
-    background-color: #fff;
+    background-color: var(--bg-color);
     width: 125px;
     height: 125px;
     display: flex;
@@ -35,10 +44,10 @@ body {
 
 /* Style the X and O symbols */
 .cell[data-cell='X'] {
-    color: #f00;
+    color: var(--p1cell-color);
 }
 .cell[data-cell='O'] {
-    color: #00f;
+    color: var(--p2cell-color);
 }
 
 /* Style the display for the current player's turn */
@@ -53,7 +62,7 @@ body {
     padding: 8px 16px;
     border: none;
     border-radius: 4px;
-    background-color: #333;
-    color: #fff;
+    background-color: var(--sec-color);
+    color: #000;
     cursor: pointer;
 }

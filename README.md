@@ -5,15 +5,15 @@
 
 ## Links
 
-- [Repo](https://github.com/steelsnake93/tic-tac-toe.git<project-name> "<tic-tac-toe> Repo")
+- [Repo](https://github.com/steelsnake93/tic-tac-toe "<tic-tac-toe> Repo")
 
-- [Live](<Homepage url> "Live View")
+- [Live](https://steelsnake93.github.io/tic-tac-toe  "<[Homepage url]> Live View")
 
 # About The project
 
 ## Screenshots
 
-![Home Page](/screenshots/1.png "Home Page")
+![Screenshot](/images/screenshot.png "Home Page")
 
 ## Installation
 
