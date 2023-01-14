@@ -43,13 +43,12 @@ body {
 }
 
 /* Style the X and O symbols */
-.cell[data-cell='X'] {
+.cell.X {
     color: var(--p1cell-color);
 }
-.cell[data-cell='O'] {
+.cell.O {
     color: var(--p2cell-color);
 }
-
 /* Style the display for the current player's turn */
 #current-player {
     font-size: 20px;
