@@ -11,19 +11,21 @@
     <div class="container">
         <div id="game">
             <!-- Container element for the game board -->
-            <div id="board">
-                <div class="cell" data-cell="O">X</div>
-                <div class="cell" data-cell="X">O</div>
-                <div class="cell" data-cell="O">X</div>
-                <div class="cell" data-cell="X">O</div>
-                <div class="cell" data-cell="O">X</div>
-                <div class="cell" data-cell="X">O</div>
-                <div class="cell" data-cell="O">X</div>
-                <div class="cell" data-cell="X">O</div>
-                <div class="cell" data-cell="O">X</div>
+            <div class="board" id="board">
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
             </div>
         </div>
         <div id="status">
+            <!-- Winning message -->
+            <div data-text></div>
             <!-- Display for current player's turn -->
             <p id="current-player">Player X's turn</p>
         </div>
