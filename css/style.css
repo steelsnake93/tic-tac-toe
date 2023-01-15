@@ -46,7 +46,7 @@ body {
 .cell.X {
     color: var(--p1cell-color);
 }
-.cell.O {
+.cell[data-cell='O'] {
     color: var(--p2cell-color);
 }
 /* Style the display for the current player's turn */
