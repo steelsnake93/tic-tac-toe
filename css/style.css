@@ -43,7 +43,7 @@ body {
 }
 
 /* Style the X and O symbols */
-.cell.X {
+.cell[data-cell='X'] {
     color: var(--p1cell-color);
 }
 .cell[data-cell='O'] {
