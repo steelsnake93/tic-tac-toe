@@ -35,9 +35,9 @@
 
 - [x] Set up HTML structure for game board
 - [x] Add CSS styles for layout and appearance
-- [ ] Implement game logic with JavaScript
-- [ ] Add event handling for user interactions
-- [ ] Test app and fix any bugs
+- [x] Implement game logic with JavaScript
+- [x] Add event handling for user interactions
+- [x] Test app and fix any bugs
 - [ ] Add advanced features (optional)
 
 ## Author
